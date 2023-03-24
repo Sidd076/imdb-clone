@@ -1,0 +1,56 @@
+.header {
+    margin: 0 2.5rem;
+    padding: .5rem 0;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .headerLeft, .headerRight {
+    display: flex;
+    align-items: center;
+  }
+  
+  a > span {
+    margin: 0 30px;
+    font-size: 1.3rem;
+    cursor: pointer;
+    color: white;
+  }
+  
+  a > span:hover {
+    color: yellow;
+  }
+  
+  .header__icon {
+    width: 80px;
+    cursor: pointer;
+  }
+  
+  .user__avatar {
+    font-size: 2rem;
+  }
+  
+  .header form {
+    display: flex;
+    align-items: center;
+  }
+  
+  .header input[type="text"] {
+    border: none;
+    border-radius: 0px;
+    padding: 8px;
+    margin-right: 8px;
+    font-size: 1rem;
+      }
+  
+  .header button[type="submit"] {
+    border: none;
+    background-color: #f5c518;
+    color: black;
+    font-size: 1.2rem;
+    padding: 8px 16px;
+    border-radius: 0;
+    cursor: pointer;
+  }
+  
